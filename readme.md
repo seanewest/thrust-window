@@ -1,18 +1,30 @@
 # Thrust-Window
 
-From the command line:
+*Open up an independent browser window at a url with an optionally specified width and height using [Breach](https://github.com/breach/breach_core)'s [Thrust](https://github.com/breach/thrust).*
+
+## Command Line Example
+
 ```
-thrust-window http://yahoo.com 300 400
+thrust-window url [width] [height]
+```
+
+## API Example
+
+```js
+var thrustWindow = require('thrust-window');
+thrustWindow("http://google.com", 1024, 400);
 ```
 
 ## Install
+
+For command line usage:
 
 ```
 npm install -g seanewest/thrust-window
 ```
 
-## Usage
+For api usage:
 
 ```
-thrust-window url [width] [height]
+npm install seanewest/thrust-window
 ```
