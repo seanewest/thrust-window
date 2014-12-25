@@ -1,0 +1,24 @@
+{
+  "name": "thrust-window",
+  "version": "1.0.0",
+  "description": "Pop open a bare-bones browser window using thrust",
+  "bin": "cmd.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/seanewest/thrust-window.git"
+  },
+  "keywords": [
+    "thrust",
+    "breach",
+    "browser",
+    "window",
+    "html",
+    "http"
+  ],
+  "author": "Sean West",
+  "license": "ISC",
+  "homepage": "https://github.com/seanewest/thrust-window",
+  "dependencies": {
+    "node-thrust": "^0.7.6-rc.1"
+  }
+}
