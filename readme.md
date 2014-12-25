@@ -9,6 +9,7 @@ thrust-window http://yahoo.com 300 400
 
 ```
 npm install -g seanewest/thrust-window
+```
 
 ## Usage
 
