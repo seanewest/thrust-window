@@ -19,6 +19,7 @@
   "license": "ISC",
   "homepage": "https://github.com/seanewest/thrust-window",
   "dependencies": {
-    "node-thrust": "^0.7.6-rc.1"
+    "node-thrust": "git://github.com/seanewest/node-thrust",
+    "thrust-stream": "^1.0.0"
   }
 }

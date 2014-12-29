@@ -11,4 +11,9 @@ if (process.argv[3])
 if (process.argv[4])
   height = parseInt(process.argv[4]);
 
-thrustWindow(url, width, height);
+thrustWindow(url, width, height, function(err) {
+  if (err) {
+    console.err(err);
+    process.exit(1);
+  }
+});
